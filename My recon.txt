@@ -1,0 +1,51 @@
+AMASS
+DNSGEN  => cat subdmoain.txt | dnsgen - 
+NMAP => nmap -sn -Pn -n --script=shodan-api --script-args "shodan-api.apikey=qUSXSlNrnYjUpKHHe6lkHJt6NcSCp9tt" mail.ru
+-sn – Disable Port Scan
+
+-Pn – Skip host discovery, don’t ping the host,
+
+-n – Skip DNS Resolution
+
+https://github.com/nahamsec/JSParser
+Webscreenshoot py =====> install phantomJs => sudo apt install phantomjs
+################################################################################
+Steps to take when approaching a target
+
+1. Check/Verify target’s scope (*.example.com)
+
+2. Find subdomains of target (Refer Subdomain tools mentioned in the article)
+
+3. Run masscan
+
+4. Check which domains resolve
+
+5. Take Screenshot
+
+6. Do Content Discovery (by bruteforcing the files and directories on a particular domain/subdomain)
+#################################################"
+######### Subdomain Enumeration Tools: ##########
+1. Sublist3r =>     python2 sublist3r.py -d nitata.com -o ~/tools/nitata.com/nitata.txt
+2. subfinder => subfinder -d nitata.com -nW >>  ~/tools/nitata.com/nitata.txt
+
+3. findomain =>     findomain -t example.com
+4. assetfinder => assetfinder -subs-only <domain>
+5. amass
+6. censys-enumeration => not installed yet 
+7.altdns => python altdns.py -i input_domains.txt -o ./output/path -w altdns/words.txt -i subdomains.txt -o data_output -w words.txt -s results_output.txt
+8. Massdns => Get CNAME Of domains wordlist => ./bin/massdns -r lists/resolver.txt -t A "domains.txt"
+9. knockpy => knockpy domain.com -w wordlist.txt
+10. Shodan
+11. Sublert — https://github.com/yassineaboukir/sublert
+###########Content Discovery Tools (Directory Bruteforcing) #########
+1. ffuf — https://github.com/ffuf/ffuf => ffuf -w wordlist -u URL/FUZZ
+2. Dirsearch
+3. Wfuzz
+4. Aquatone 
+5.wafw00f => detect the WAF
+6. virtual-host-discovery => ruby scan.rb --ip=ddddd --host=dddd
+7. masscan Get open Ports
+#################" Github Recon Tools ###############
+1. gitrob (Not configured yet)
+
+########################## Re-Read js Partition

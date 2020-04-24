@@ -1,0 +1,20 @@
+POST /location.php?6W7F=1171859111 HTTP/1.1
+Host: heat.qq.com
+Accept-Encoding: gzip, deflate
+Accept: */*
+Accept-Language: en-US,en-GB;q=0.9,en;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36
+Cache-Control: max-age=0
+Referer: https://heat.qq.com/location.php?date_end=mxxycy83o89ix50jfl5g9ffunvg17i5nmdb
+Cookie: PHPSESSID=9k2i50el7sjbp6ebhq023lcbn1; pgv_pvid=5459569000; pgv_pvi=8444631040; eas_sid=R1e5S8562879I6U0s4W4I1O0l9; sd_userid=79201586897884354; sd_cookie_crttime=1586897884354; ts_refer=www.google.com/; ts_uid=2482902956; ptui_loginuin=%27; tvfe_boss_uuid=ea16bf0801a8616c; pgv_info=ssid=s4930410820; current_region_name=%E5%8C%97%E4%BA%AC%E6%AC%A2%E4%B9%90%E8%B0%B7; current_region_id=5381; suid=431438220; current_prov_name=%E5%8C%97%E4%BA%AC%E5%B8%82; current_city_name=%E5%85%A8%E9%83%A8; ts_last=heat.qq.com/wap_qqmap_big_data/location_result.html
+Content-Type: application/x-www-form-urlencoded
+Transfer-Encoding: chunked
+Content-Length: 48
+Connection: keep-alive
+
+1f
+veaux=x&date_end=225282&4cr1y=x
+1
+Z
+Q
+
